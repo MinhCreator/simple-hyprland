@@ -36,7 +36,7 @@ While this guide is created with [Arch Linux](https://archlinux.org/) in mind, i
 
 1. Clone the repository to your home folder:
     ```
-    git clone https://github.com/gaurav23b/simple-hyprland.git ~/simple-hyprland
+    git clone https://github.com/MinhCreator/simple-hyprland.git ~/simple-hyprland
     ```
 2. Navigate to the installer directory:
     ```
@@ -63,10 +63,9 @@ After installation, you'll want to familiarize yourself with the default key bin
 #### General
 - `Super + T`: Open the terminal (`$terminal`).
 - `Super + B`: Open the browser (`$browser`).
-- `Super + O`: Open notes application (`$notes`).
 - `Super + C`: Open the primary editor (`$editor`).
 - `Super + S`: Open the alternative editor (`$editor-alt`).
-- `Super + F`: Open the file manager (`$fileManager`).
+- `Super + E`: Open the file manager (`$fileManager`).
 - `Super + A`: Open the application menu (`$menu`).
 - `Super + M`: Exit Hyprland.
 
