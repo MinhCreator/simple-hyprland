@@ -1,0 +1,8 @@
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+image/gif=org.gnome.eog.desktop
+image/jpeg=org.gnome.eog.desktop
+
+[Added Associations]
+image/gif=org.gnome.eog.desktop;
+image/jpeg=org.gnome.eog.desktop;
