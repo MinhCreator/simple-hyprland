@@ -17,7 +17,7 @@ elif run_command "pacman -S --noconfirm --needed git base-devel" "Install YAY (M
     run_command "git clone https://aur.archlinux.org/yay.git && cd yay" "Clone YAY (Must)/Breaks the script" "no" "no" 
     run_command "makepkg --noconfirm -si && cd .. # builds with makepkg" "Build YAY (Must)/Breaks the script" "no" "no" 
 fi
-run_command "pacman -S --noconfirm pipewire wireplumber pamixer brightnessctl" "Configuring audio and brightness (Recommended)" "yes" 
+run_command "pacman -S --noconfirm pipewire wireplumber brightnessctl" "Configuring audio and brightness (Recommended)" "yes" 
 
 run_command "pacman -S --noconfirm nerd-fonts" "Installing Nerd Fonts and Symbols (Recommended)" "yes" 
 
